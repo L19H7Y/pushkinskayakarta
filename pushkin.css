@@ -480,3 +480,12 @@ nav.submenu-menu-index>ul>li.inner-menu-index-block:hover>a,nav.submenu-menu-ind
 nav.submenu-menu-index > ul > li.inner-menu-index-block > ul > li > ul  a {
 	color: #0D3380;
 }
+
+
+
+nav.submenu-menu-index>ul>li {
+	float: left;
+	margin-right: 17px;
+	position: relative;
+	z-index: 3;
+}
