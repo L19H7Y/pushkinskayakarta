@@ -192,3 +192,25 @@ body {
   width: 59%;
   height: 83%;
 }
+
+
+
+
+
+.holder {
+}
+
+header {
+	width: 100%;
+	background: #12b362;
+	color: #ffffff;
+	height: 144px;
+	position: relative;
+}
+
+header>div.holder>div {
+	position: absolute;
+}
+section#priorities div.holder {
+	margin-right: 330px;
+}
