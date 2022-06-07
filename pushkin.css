@@ -313,3 +313,8 @@ nav.submenu-menu-index {
 	line-height: 39px;
 	z-index: 9;
 }
+
+
+#menu {
+	margin-top: -39px;
+}
