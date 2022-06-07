@@ -217,8 +217,81 @@ section#priorities div.holder {
 
 header {
 	width: 100%;
-	background: #12b362;
+	background: #25c876;
 	color: #ffffff;
 	height: 144px;
 	position: relative;
+}
+header>div.holder>div {
+	position: absolute;
+}
+header a {
+	color: #ffffff;
+}
+header div#find-link {
+	left: 50%;
+	width: 25%;
+	bottom: 89px;
+	margin-left: 45px;
+	font-style: italic;
+}
+header div#social-menu {
+	bottom: 59px;
+	right: 10px;
+	height: 50px;
+}
+header div#social-menu ul li {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	text-indent: -10000px;
+}
+header div#social-menu ul li a {
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: url('social_icons.png') 0px 0px no-repeat;
+}
+header div#social-menu ul li a:hover {
+	box-shadow: 0px 0px 0px 5px #ffffff;
+}
+header div#social-menu ul li#social-menu-vk a {
+	background-position: 0px -50px;
+}
+header div#social-menu ul li#social-menu-vk:hover a {
+	background-position: -50px -50px;
+}
+header div#social-menu ul li#social-menu-rutube a {
+	width: 50px;
+	background: url('social_icons_rutube.png') 0px 0px no-repeat;
+}
+header div#social-menu ul li#social-menu-ok a {
+	width: 50px;
+	background: url('social_icons_ok.png') 0px 0px no-repeat;
+}
+header div#social-menu ul li#social-menu-12 a {
+	background-position: 0px -50px;
+}
+header div#social-menu ul li#social-menu-12 a {
+	width: 50px;
+	background: url('12+.png') 0px 0px no-repeat;
+}
+header div#social-menu ul li#social-menu-youtube {
+	width: 100px;
+}
+header div#social-menu ul li#social-menu-youtube a {
+	width: 100px;
+	background: url('social_icons_youtube.png') 0px 0px no-repeat;
+}
+header div#social-menu ul li#social-menu-youtube:hover a {
+	background-position: -100px 0px;
+}
+div.ui-datepicker-header .ui-corner-all {
+	cursor: pointer;
+	padding: 0px 2px;
+	border-radius: 2px;
+}
+div.ui-datepicker-header a.ui-corner-all:hover {
 }
