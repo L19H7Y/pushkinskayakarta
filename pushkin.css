@@ -214,3 +214,11 @@ header>div.holder>div {
 section#priorities div.holder {
 	margin-right: 330px;
 }
+
+header {
+	width: 100%;
+	background: #12b362;
+	color: #ffffff;
+	height: 144px;
+	position: relative;
+}
