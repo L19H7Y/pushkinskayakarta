@@ -6,6 +6,285 @@ html, body {
 	margin: 0px;
 	font-family: 'Open Sans', sans-serif;
 
+	
+	
+	
+header {
+	width: 100%;
+	background: #12b362;
+	color: #ffffff;
+	height: 144px;
+	position: relative;
+}
+
+header>div.holder>div {
+	position: absolute;
+}
+
+header a {
+	color: #ffffff;
+}
+
+header div#tyutchev {
+	text-indent: -10000px;
+	width: 134px;
+	height: 136px;
+	background: url('tyutchev.png');
+	position: absolute;
+	left: 19px;
+	bottom: 0px;
+	z-index: 10;
+}
+
+header div#logo {
+	text-indent: -10000px;
+	width: 322px;
+	height: 69px;
+	background: url('logo.png');
+	position: absolute;
+	left: 137px;
+	bottom: 45px;
+}
+
+header div#logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+header div#find-link {
+	left: 50%;
+	width: 25%;
+	bottom: 89px;
+	margin-left: 45px;
+	font-style: italic;
+}
+
+div#search-form {
+	left: 50%;
+	top: 61px;
+	margin-left: 45px;
+	position: absolute;
+}
+
+div#search-form>form {
+	margin-left: -2px;
+	position: relative;
+}
+
+div#search-form>form>* {
+	margin: 0px;
+	border: 0px;
+	outline: none;
+}
+
+div#search-form input {
+	padding: 4px 16px 4px 25px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	width: 92px;
+	border-radius: 12px;
+	background: #ffffff;
+	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+div#search-form input:focus {
+	width: 192px;
+}
+
+div#search-form button {
+	background: url('search.png');
+	width: 24px;
+	height: 24px;
+	text-indent: -10000px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 1px;
+	float: left;
+}
+
+
+
+header div#social-menu {
+	bottom: 59px;
+	right: 10px;
+	height: 50px;
+}
+
+header div#social-menu ul li {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	text-indent: -10000px;
+}
+
+header div#social-menu ul li a {
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: url('social_icons.png') 0px 0px no-repeat;
+}
+
+header div#social-menu ul li a:hover {
+	box-shadow: 0px 0px 0px 5px #ffffff;
+}
+
+header div#social-menu ul li#social-menu-vk a {
+	background-position: 0px -50px;
+}
+
+header div#social-menu ul li#social-menu-vk:hover a {
+	background-position: -50px -50px;
+}
+
+
+header div#social-menu ul li#social-menu-rutube a {
+	width: 50px;
+	background: url('social_icons_rutube.png') 0px 0px no-repeat;
+}
+
+header div#social-menu ul li#social-menu-ok a {
+	width: 50px;
+	background: url('social_icons_ok.png') 0px 0px no-repeat;
+}
+
+
+
+header div#social-menu ul li#social-menu-12 a {
+	background-position: 0px -50px;
+}
+
+header div#social-menu ul li#social-menu-12 a {
+	width: 50px;
+	background: url('12+.png') 0px 0px no-repeat;
+}
+
+
+header div#social-menu ul li#social-menu-youtube {
+	width: 100px;
+}
+
+header div#social-menu ul li#social-menu-youtube a {
+	width: 100px;
+	background: url('social_icons_youtube.png') 0px 0px no-repeat;
+}
+
+header div#social-menu ul li#social-menu-youtube:hover a {
+	background-position: -100px 0px;
+}
+
+div#subpage-image,
+div#subpage-image div#subpage-image-wrapper,
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide,
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide div.subpage-image-slide-blured,
+div#subpage-image div#announcements {
+	height: 480px;
+}
+
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide,
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide div.subpage-image-slide-blured {
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide div.subpage-image-slide-blured {
+	display: none;
+}
+
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide {
+	background-image: url('../slider/1.jpg');
+}
+
+div#subpage-image div#subpage-image-wrapper div.subpage-image-slide div.subpage-image-slide-blured {
+	background-image: url('../slider/1_blured.jpg');
+}
+
+
+div#subpage-image.subpage-image-bottom div#subpage-image-wrapper div.subpage-image-slide {
+	background: rgba(255,255,255,0.5);
+	border-top: 2px dashed #12b362;
+	border-bottom: 2px dashed #12b362;
+}
+
+div#subpage-image.subpage-image-bottom  div#announcements {
+	background: transparent;
+	border-right: 2px dashed #12b362;
+}
+
+div#subpage-image.subpage-image-bottom div#subpage-image-wrapper div.subpage-image-slide div.subpage-image-slide-blured {
+	background: transparent;
+}
+
+div#subpage-image.subpage-image-bottom div.priority h4 a {
+	color: #0d3380;
+}
+
+div#subpage-image.subpage-image-bottom div#announcements div.announcement {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+div#subpage-image.subpage-image-bottom div.priority div {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+div#subpage-image div#announcements {
+	position: relative;
+	overflow: hidden;
+	top: -100%;
+}
+
+div#subpage-image {
+	position: relative;
+}
+
+div#priorities {
+	position: absolute;
+	top: 30px;
+	left: 494px;
+	right: 34px;
+	max-width: 770px;
+}
+
+div.priority {
+	float: left;
+	width: 19%;
+	height: 220px;
+	padding-right: 1%;
+	text-align: center;
+}
+
+div.priority:first-child {
+	margin-left: 0%;
+}
+
+div.priority div {
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
+	opacity: 0.75;
+	background: #ffffff;
+	max-width: 120px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.priority div img {
+	width: 100%;
+}
+
+div.priority h4 {
+	max-width: 120px;
+	font-size: 0.67em;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+div.priority h4 a {
+	color: #ffffff;
+}
 /* видео фон */ 
 
  background: url('menu.mp4');
