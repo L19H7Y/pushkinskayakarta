@@ -295,3 +295,9 @@ div.ui-datepicker-header .ui-corner-all {
 }
 div.ui-datepicker-header a.ui-corner-all:hover {
 }
+
+header div#logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
